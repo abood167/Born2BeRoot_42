@@ -232,7 +232,7 @@ $ sudo nano /etc/sudoers
 Defaults     secure_path="..."
 Defaults     passwd_tries=3
 Defaults     badpass_message="Password is wrong, please try again!"
-Defaults	logfile="/var/log/sudo.log"
+Defaults	logfile="/var/log/sudo/sudo.log"
 Defaults	log_input,log_output
 Defaults        requiretty
 Defaults   secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
